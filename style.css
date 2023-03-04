@@ -12,7 +12,7 @@ h2{
 .text-green{
 color: green;
 }
-section{
+.flexible-container{
 display: flex;
 padding: 5%;
 
@@ -29,7 +29,7 @@ img{
 .link{
 
     text-decoration: none;
-    padding: 10px,50px;
+    padding: 10px,30px;
     border-radius: 10px;
     background-image:linear-gradient(blue,blueviolet);
     color: white;
@@ -39,4 +39,20 @@ img{
 
     background-image:url(171752.jpg);
     background-repeat: no-repeat;
+}
+.specialize-head{
+    text-align: center;
+    padding:0%;
+}
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+.child{
+    box-shadow: 10px 5px 5px black;
+    margin: 3%;
+    padding: 50px;
+    border-radius: 0 20px  50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan)0 100%;
 }
